@@ -1,3 +1,16 @@
+# Ma réponse dasn cette partie du cahier des charges Readme.md 
+# Documenter le déploiement	Rédigez un Readme qui explique comment lancer l'application à partir d'un serveur ou d'un PC neuf
+
+alors comment j'ouvre un projet quand ej suis sur un nouvel ordinateur ?
+
+Voir documentation symfony
+https://symfony.com/doc/current/deployment.html
+
+
+
+
+# Cahier des charges ci-dessous
+
 # phase3-symfony-tasklist-reloaded
 Une application de gestion de tâches priorisées et organisées en dossiers. Développée avec Symfony.
 
