@@ -11,27 +11,25 @@ Tu  as trouvé un emploi, tu arrives dans ta nouvelle entreprise, tu dois trouve
 Je demande par email ou par un équivalent comment se nomme le projet Symphony. Je lis leurs notes concernant le projet Symfony. Ensuite,imaginons que j'ai le nom du projet nommé "Test-Project-MSD" et l'os est Ubuntu Linux. J'ouvre un terminal. Je fais "sudo apt install plocate" puis "locate Test-Project-MSD". Si je ne trouve rien. Je fais cette commande "sudo updatedb" puis "locate Test-Project-MSD "qui affiche "/home/user/Bureau/Test-Project-MSD". Je fais "cd /home/user/Bureau/Test-Project-MSD" pour entrer dans le dossier. J'ouvre avec Visual Studio Code, le projet en question. Je vérifie s'il y a composer avec "composer -v". Si je n'ai pas de réponse, je fais "sudo composer install". Je refais "composer -v". Si j'ai ces lignes qui s'affichent :" Composer version 2.9.5 2026-01-29 11:40:53". Cela  veut dire que composer est installé. Je fais "php -v" (php -vPHP 8.5.5 (cli) (built: Apr 11 2026 06:53:07))pour connaître la version php et je fais une mise à jour ci-besoin.Je fais "symfony check:requirements" pour savoir si l'ordinateur est prêt à run des projets Symfony ou non. S'il est installé, je fais "symfony -V" pour connaître sa version (Symfony CLI version 5.15.1 (c) 2021-2026 Fabien Potencier (2025-10-04T08:05:57Z - stable)) et je fais une mise à jour ci-besoin. J'échange avec mes collègues pour rejoindre le bon repository Github. Je fais "symfony help" car je ne souviens pas de toutes les commandes par coeur. J'installe les dépendances manquantes. Je vérifie le".env". Enfin, je fais "symfony server:start" pour lancer le serveur dans le navigateur et commencer à travailler. Je quitte le serveur symfony en faisant "symfony server:stop".
 
 Pour conclure, j'effectue les étapes et lignes de commandes dans cet ordre :
-                -échanges avec équipe pour connaître le projet en général et son nom "Test-Project-MSD"
-                -ctrl + alt +t
-                -sudo apt install plocate
-                -locate Test-Project-MSD
-                -sudo updatedb
-                -locate Test-Project-MSD affiche /home/user/Bureau/Test-Project-MSD
-                -cd /home/user/Bureau/Test-Project-MSD
-                -ouvrir le projet via Visual Studio Code
-                -composer -v
-                -sudo composer install
-                -composer -v affiche Composer version 2.9.5 2026-01-29 11:40:53
-                -php -v
-                -symfony check:requirements
-                -symfony -V affiche (Symfony CLI version 5.15.1 (c) 2021-2026 Fabien Potencier (2025-10-04T08:05:57Z - stable))
-                -échanges avec collègues pour rejoindre le bon repository Github
-                -symfony help
-                -installer les dépendances manquantes
-                -vérifier le .env
-                -symfony server:start
-                -travailler sur le projet
-                -symfony server:stop
+## Ouvrir le projet
+                - échanges avec collègues pour rejoindre le bon repository Github
+                - git clone 
+                - cd /home/user/Bureau/Test-Project-MSD
+                - ouvrir le projet via Visual Studio Code
+## Verifier les dependences du projet
+                - composer -v
+                - composer install
+                - composer -v affiche Composer version 2.9.5 2026-01-29 11:40:53
+                - php -v
+                - symfony check:requirements                
+                - symfony -V affiche (Symfony CLI version 5.15.1 (c) 2021-2026 Fabien Potencier (2025-10-04T08:05:57Z - stable))
+                - symfony help
+                - installer les dépendances manquantes
+                - vérifier le .env
+## Lancer le projet
+                - symfony server:start
+                - travailler sur le projet
+                - symfony server:stop
   
 
 # Cahier des charges ci-dessous
